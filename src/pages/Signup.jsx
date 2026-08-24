@@ -26,7 +26,7 @@ return (
 <div className="flex flex-col gap-2 my-2">
 <input type = "text" className = "w-52 border-black p-1 bg-transparent border rounded-md" placeholder = "username" onChange = {handleUInput}/>
 <input type = "text" className = "w-52 border-black p-1 bg-transparent border rounded-md" placeholder = "password" onChange = {handlePInput}/>
-<input type = "text" className = "w-52 border-black p-1 bg-transparent border rounded-md" placeholder = "confirm password" onChange = {handleUInput}/>
+<input type = "text" className = "w-52 border-black p-1 bg-transparent border rounded-md" placeholder = "confirm password" onChange = {handlePInput}/>
 <button className = "bg-[#FCA201] w-24 p-1 rounded-md" onClick = {addUser}>Signup</button>
 <p>Already have an account? <Link to = {"/"} className = "underline">Login</Link></p>
 
